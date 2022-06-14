@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .hero-statement, .footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    
+}
