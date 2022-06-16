@@ -1,85 +1,88 @@
 * {
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 body {
-    font-family: roboto, sans-serif;
-    display: flex;
-    flex-direction: column;
+
 }
 
-.hero-statement, .information, .quote, .sign-up {
-    flex: 1;
-    display: flex;
+.section {
     height: 300px;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.header {
-    flex: 1;
+.content {
+    width: 1000px;
+    flex: 0 1 auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 
-.header-links {
+.content-header {
+    justify-content: space-between;
+}
+
+.links-header {
+    text-decoration: none;
+    list-style-type: none;
     display: flex;
     gap: 20px;
-}
-
-a {
-    flex: 1;
-}
-
-.header-logo {
-    flex: 1 0 auto;
-    font-size: 24px;
-    color: #F9FAF8;
-    display: flex;
-    align-items: center;
-}
-
-.header, .hero-statement, .footer {
-    background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.hero-statement {
-    gap: 30px;
-}
-
-.hero-text {
-    flex: 1;
+.content-hero {
     display: flex;
-    flex-direction: column;
+    gap: 50px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .hero-big {
-    flex: 1;
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 800;
 }
 
-button {
-    width: 100px;
-    height: 25px;
-    background-color: #3882F6;
-    color: #F9FAF8;
-    border-radius: 5px;
-}
-
 .img-placeholder {
-    flex: 1;
-    height: 200px;
+    width: 475px;
+    height: 190px;
+    flex: 1 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: darkgray;
+    background-color: darkgrey;
 }
+
+button {
+    width: 75px;
+    height: 25px;
+    background-color: #3882f6;
+    border-radius: 4px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.logo-header {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.section-header, .section-footer {
+    height: auto;
+}
+
+.section-header, .section-hero {
+    background-color: #1F2937;
+}
+
+.section-quote {
+    background-color: #E5E7EB;
+}
+
 
